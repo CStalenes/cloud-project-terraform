@@ -1,0 +1,60 @@
+# Terraform .gitignore
+
+# Fichiers locaux de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Fichiers d'état Terraform (contiennent des infos sensibles)
+terraform.tfstate
+terraform.tfstate.*
+
+# Plans Terraform
+*.tfplan
+*.tfplan.*
+
+# Variables Terraform (SENSIBLES - NE JAMAIS COMMITER)
+terraform.tfvars
+*.auto.tfvars
+
+# Fichiers de crash
+crash.log
+crash.*.log
+
+# Répertoire de plugins
+.terraform.d/
+
+# Fichiers de backup
+*.backup
+*.bak
+
+# Clés SSH
+*.pem
+*.key
+
+# Fichiers de logs
+*.log
+
+# Fichiers de variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers Azure CLI
+.azure/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache PowerShell
+*.ps1xml 
