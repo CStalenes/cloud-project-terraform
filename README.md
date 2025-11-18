@@ -13,13 +13,6 @@ Ce projet déploie une infrastructure complète sur Azure comprenant :
 - Règles de sécurité réseau avancées
 - **Base de données MySQL managée** avec sécurité SSL
 
-## 📄 Rapport Mini Projet Cloud
-
-Le PDF ne peut pas être affiché directement sur GitHub, mais vous pouvez le télécharger ici :
-
-👉 [**Télécharger le rapport PDF**](./Rapport_Mini_Projet_Cloud_Stalenes_CORIOLAN.pdf)
-
-
 ## 🔑 Prérequis
 
 ### 1. Authentification Azure
